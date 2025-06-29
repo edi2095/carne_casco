@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bistec de Cerdo</title>
+<link rel="stylesheet" href="productos.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+  <header>
+    <input type="checkbox" name="" id="toggler">
+    <label for="toggler" class="fas fa-bars"></label>
+
+    <a href="Principal.html" class="logo"><img src="img/pixelcut-export.png" width="250px" height="60px"><span>.</span></a>
+
+    <nav class="navbar">
+        <a href="Principal.html">Inicio</a>
+        <a href="Everything.html">Productos</a>
+        <a href="duplica.html">Al Vacio</a>
+        <a href="conatctanos.html">Contacto</a>
+    </nav>
+    <div class="icons">
+        <a href="Everything.html" class="fas fa-shopping-cart"></a>
+        <a href="ingreso.html" class="fas fa-user"></a>
+
+    </div>
+</header>
+<div class="main-container">
+  <div class="imgCont">
+    <img src="img/bisteccerdo.jpg" alt="Imagen del Producto">
+  </div>
+  <div class="infoCont container">
+    <div class="product-name">Bistec de cerdo</div>
+    <div class="product-preci0">$75.00/Kg</div>
+    <div class="quantity">
+      <button class="minus">-</button>
+      <span class="amount">0</span>
+      <button class="plus">+</button>
+    </div>
+   <button class="done">Listo</button>
+    <div class="calculated-price">Precio Total: $0.00</div>
+  </div>
+</div>
+<form id="hiddenForm" action="bistecCerdo.php" method="post" style="display: none;">
+  <input type="hidden" id="hiddenAmount" name="amount">
+</form>
+<script src="masterki.js"></script>
+<script src="bistecC.js"></script>
+</body>
+</html>

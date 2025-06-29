@@ -1,0 +1,123 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+.main-container {
+  display: flex;
+  width: 90%;
+  height: 90%;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.imgCont {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.imgCont img {
+  width: 100%;
+  height: auto;
+}
+
+.infoCont {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.product-name {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.product-preci0 {
+  font-size: 20px;
+  color: #ff0000;
+  margin-bottom: 20px;
+}
+
+.quantity {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.quantity button {
+  padding: 5px 10px;
+  border: none;
+  background-color: #ff0000;
+  color: white;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.quantity .amount {
+  margin: 0 10px;
+  font-size: 16px;
+}
+
+.done {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #ff0000;
+  color: white;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  max-width: 75px;
+}
+
+@media only screen and (max-width: 768px) {
+  .main-container {
+    flex-direction: column; 
+  }
+
+  .imgCont img {
+    width: 100%;
+    height: auto; 
+  }
+
+  .infoCont {
+    padding: 10px; 
+  }
+
+  .product-name {
+    font-size: 20px; 
+  }
+
+  .product-price {
+    font-size: 16px; 
+  }
+
+  .quantity button {
+    padding: 5px; 
+    font-size: 14px; 
+  }
+
+  .done {
+    padding: 8px 15px; 
+    font-size: 14px; 
+  }
+}
+
+.calculated-price{
+  font-family: 'Montserrat', sans-serif;
+}

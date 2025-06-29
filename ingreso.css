@@ -1,0 +1,111 @@
+body, html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.formBox {
+    width: 300px;
+    padding: 40px;
+    background: rgba(25, 25, 25, 0.5);
+    text-align: center;
+    border-radius: 5dvh;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; 
+}
+
+.titulo {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.formBox input[type="text"], .formBox input[type="password"], .formBox input[type="email"], .formBox input[type="number"], .formBox button[type="submit"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #8B0000;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+.formBox input[type="text"]:focus, .formBox input[type="password"]:focus, .formBox input[type="email"]:focus, .formBox input[type="number"]:focus{
+    width: 280px;
+    border-color: white;
+}
+
+.formBox button[type="submit"] {
+    border: 0;
+    background: #8B0000;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #8B0000;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.formBox button[type="submit"]:hover {
+    background: none;
+}
+
+.crearUsuarioBtn {
+    text-decoration: none;
+    background: #8B0000;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #8B0000;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.crearUsuarioBtn:hover {
+    background: none;
+}
+
+/*xd*/
+#temporizador-wrapper {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: rgba(25, 25, 25, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #temporizador {
+    font-size: 36px;
+    margin: 0;
+  }

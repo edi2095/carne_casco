@@ -1,0 +1,169 @@
+html, body{
+    position: relative;
+    height: 100%;
+
+}
+
+body{
+
+    font-family: 'Montserrat',sans-serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+
+}
+
+.swiper{
+    
+    width: 100%;
+    padding-top: 100px;
+}
+
+.swiper-slide{
+    width: 300px;
+    height: 500px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.4);
+    padding: 40px;
+    text-align: center;
+
+}
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.icons i{
+    font-size: 20px;
+    color: #ff0000;
+
+}
+
+.icons img{
+    width: 120px;
+}
+
+.product-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-txt{
+    flex-basis: 50%;
+    text-align: left;
+}
+
+.product-txt span{
+    font-size: 25px;
+    color: #ff0000;
+    font-weight: bold;
+}
+
+.product-txt h3{
+    font-size: 20px;
+    color: #261e1e;
+    
+}
+
+.product-txt p{
+    font-size: 14px;
+    color: #000000;    
+}
+
+.product-img{
+    flex-basis: 50%;
+    text-align: right;
+
+}
+
+.product-img img{
+    width: 120px;
+
+}
+
+.btn-1{
+    pointer-events: auto;
+
+    display: inline-block;
+    padding: 13px 55px;
+    border: 5px solid #ffaf6e;
+    border-radius: 25px;
+    font-weight: bold;
+    color: #ffaf6e;
+    text-decoration: none;
+    margin-top: 50px;
+    
+}
+
+
+
+
+
+/* el puto rorro*/
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #fff;
+    font-size: 1rem;
+    padding: 2rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index:1000;
+    box-shadow: 0 .5rem 1rem rgb(0,0,0,.1);
+}
+
+header .logo {
+    font-size: 20px;
+    color: #333;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+header .logo span {
+    color: var(--pink);
+}
+
+header .navbar a {
+    font-size: 25px;
+   padding: 0 1.5rem;
+   color: #666; 
+    text-decoration: none;
+}
+
+header .navbar a:hover {
+    color: var(--pink);
+}
+
+header .icons a {
+    font-size: 2rem;
+    padding: 0 1.5rem;
+    color: #666;
+    text-decoration: none;
+}
+
+header .icons a:hover {
+    color: var(--pink);
+}
+
+header #toggler {
+    display: none;
+}
+
+header .fa-bars {
+    font-size: 3rem;
+    color: #333;
+    border-radius: .5rem;
+    padding: .5rem 1.5rem;
+    cursor: pointer;
+    border: .1rem solid rgba(0, 0, 0, .3);
+    display: none;
+}
+
+header .fa-bars:hover {
+    color: var(--pink);
+}
